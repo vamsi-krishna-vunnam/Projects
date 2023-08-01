@@ -14,3 +14,5 @@ may identify emotions in Telugu speech. We here make use
 of 550 audio signals of Telugu emotional speech that spans 
 five emotional categories: surprise, anger, happiness, 
 neutrality, and sadness.
+<img width="246" alt="image" src="https://github.com/vamsi-cse/Projects/assets/96910860/2e56efe0-a3bd-4fee-a701-9a4ffd3786b9">
+
