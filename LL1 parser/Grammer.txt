@@ -1,0 +1,64 @@
+
+A -> S B | B
+S -> a | B c | #
+B -> b | d
+
+ 
+
+S -> A | B C
+A -> a | b
+B -> p | #
+C -> c
+
+ 
+
+S -> A B | C
+A -> a | b | #
+B-> p | #
+C -> c
+
+ 
+ 
+S -> A B C | C
+A -> a | b B | #
+B -> p | #
+C -> c
+
+ 
+ 
+ 
+A -> B C c | g D B
+B -> b C D E | #
+C -> D a B | c a
+D -> # | d D
+E -> E a f | c
+       
+
+
+E -> T E'
+E' -> + T E' | #
+T -> F T'
+T' -> * F T' | #
+F -> ( E ) | id
+
+
+
+S -> A k O
+A -> A d | a B | a C
+C -> c
+B -> b B C | r
+ 
+
+
+S -> NP VP
+NP -> P | PN | D N
+VP -> V NP
+N -> championship | ball | toss
+V -> is | want | won | played
+P -> me | I | you
+PN -> India | Australia | Steve | John
+D -> the | a | an
+          
+sample_input_string = "India won the championship"
+
+I is the toss
